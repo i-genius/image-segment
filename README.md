@@ -99,12 +99,9 @@
     │  design.sln
     │
     └─design
-        │
-        ├─Debug
-        │
-        └─x64
-            └─Debug
-
+        │  design.vcxproj
+        │  design.vcxproj.filters
+        │  opencv_d.props
 ```
 
 * `src/`目录下为工程`.cpp`源码文件，`include/`目录下为`.h`文件，`sample/`目录下为测试用例，输入数据存放于`data/`目录，输出数据存放于`data/result/`下，目录`data/regions`和`data/regions_2`保存图像分割中间结果，工程产生的可执行程序或库文件存放于`distribute/`目录，第三方依赖库置于`libs/`目录下。
